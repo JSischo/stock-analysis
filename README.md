@@ -9,7 +9,7 @@ Refactor existing code to analyze data for a number of stocks:
 
 ### Purpose
 
-  The purpose of this project was to to create and refactor database analysis macro in VBA for our client, Steve, to help him analyze a large stock database from multiple years of data as quickly as possible. This project included a **refactoring** of our original macro which included many ***For*** loops and ***If...Then*** statements. We also included a **User Input** box and **Run Analysis** and **Clear Data** buttons to assist Steve in simplifying the user interface with his database file.
+  The purpose of this project was to to create and refactor database analysis macro in VBA for our client, Steve, to help him analyze a large stock database from multiple years of data as quickly as possible. This project included a **refactoring** of our original macro which included many ***For*** loops and ***If...Then*** statements. This required using and array approach to the project. We also included a **User Input** box and **Run Analysis** and **Clear Data** buttons to assist Steve in simplifying the user interface with his database file.
   
   Steve will be able to use our final product to assist his clients by providing historical stock performance information to help guide their future stock purchase decisions.
 
