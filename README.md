@@ -13,25 +13,21 @@ Refactor existing code to analyze data for a number of stocks:
   
   Steve will be able to use our final product to assist his clients by providing historical stock performance information to help guide their future stock purchase decisions.
 
-## Analysis and Challenges
+## Results
 
-### Analysis of Outcomes Based on Launch Date
+### Comparison of 2017 vs. 2018 Stock Performance
+
+### Comparsion of Execution Times of Original Macro and Refactored Macro
 
 [Speed of 2017 analysis with refactored macro.](/Resources/VBA_Challenge_2017.png)
 
-> The link above contains a graph which analyzes the success and failure of Theater based kickstarter campaigns and when during the year the campaign is launched. The results do seem to indicate that there is an advantage to achieving a successful campaign based on when during the year the campaign is launched. 
-
-### Analysis of Outcomes Based on Goals
+> The link above is a screen shot of the run time for one attempt of the 2017 stock data utilizing the refactored code.
 
 [Speed of 2018 analysis with refactord macro.](/Resources/VBA_Challenge_2018.png)
 
-> The link above contians a graph that displays the relationship between successful/failed campaigns relative to the amount of the fund raising goal of the campaign. There does seem to be some corrlation between these two variables.
+> The link above is a screen shot of the run time for one attempt of the 2017 stock data utilizing the refactored code.
 
-### Challenges and Difficulties Encountered
-
-The only difficulty that I encountered during this challenge was that pivot tables are a new Excel concept to me, so it did take some practice and playing around with the functionality to achieve a level of confidence with creating the appropriate tables and associated charts. 
-
-## Results
+## Summary
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
   - There seems to be an increased chance of a successful Theater campaign when it is launched in late spring or early summer. Specifically May, June and July. On the flip side, December does seem to be the worst time to start a campign if you would like it to be successful. My hypothesis here is that in December, people tend to be a little tighter with their cash as they are buying gifts for others during the holiday season. 
