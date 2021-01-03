@@ -31,7 +31,13 @@ When we run an annual stock comparison between 2017 and 2018 for the 12 stocks i
 
 [Speed of 2018 analysis with refactored macro.](/Resources/VBA_Challenge_2018.png)
 
-> The link above is a screen shot of the run time for one attempt of the 2017 stock data utilizing the refactored code. This represents about an 88% decrease in the run time between the original code and the refactored code when running the script on the 2018 data.
+> The link above is a screen shot of the run time for one attempt of the 2017 stock data utilizing the refactored code. This represents about an 88% decrease in the run time between the original code and the refactored code when running the script on the 2018 data. The run time on the original code was about .629 seconds vs. the .078 seconds of the refactored code as indicated by the image linked above.
+
+Much of this increase in code performance can be accounted for by a few changes in the original code:
+1. Exporting the data to Arrays that were not in the original code. The lines of code that performed that function are below.
+    - Dim tickerVolumes(12) As Long
+    - Dim tickerStartingPrices(12) As Single
+    - Dim tickerEndingPrices(12) As Single
 
 ## Summary
 
