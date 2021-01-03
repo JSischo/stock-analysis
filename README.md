@@ -1,30 +1,29 @@
-# stock-analysis
-stock analysis for Steve
-# Kickstarting with Excel
+# Stock Analysis with VBA
 
 ## Overview of Project
 
-An Analysis of Kickstarter funding campaigns with the following focus/criteria:
-- Filtered for "Theater" campaigns
-- Outcomes based on "Launch date" and "Funding Goal"
+Refactor existing code to analyze data for a number of stocks:
+- Refactor previous macro to enhance proficiency
+- Add Arrays to the macro
+- Compare the time from the refactored macro to the previous macro
 
 ### Purpose
 
-  The purpose of this endeavor was to assist our client, Louise, to determine if there seemed to be any correlation between successful(S)/failed(F) Kickstarter campaigns in the **Theater** category. We looked at two outcomes per her request: Campaign ***Launch date*** and ***funding goal***.
+  The purpose of this project was to to create and refactor database analysis macro in VBA for our client, Steve, to help him analyze a large stock database from multiple years of data as quickly as possible. This project included a **refactoring** of our original macro which included many ***For*** loops and ***If...Then*** statements. We also included a **User Input** box and **Run Analysis** and **Clear Data** buttons to assist Steve in simplifying the user interface with his database file.
   
-  Louise will use this information to help guide her in planning a funding campaign for her play *Fever*.
+  Steve will be able to use our final product to assist his clients by providing historical stock performance information to help guide their future stock purchase decisions.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 
-[Outcomes vs. Launch Date](/Resources/Theater_Outcomes_vs_Launch.png)
+[Speed of 2017 analysis with refactored macro.](/Resources/VBA_Challenge_2017.png)
 
 > The link above contains a graph which analyzes the success and failure of Theater based kickstarter campaigns and when during the year the campaign is launched. The results do seem to indicate that there is an advantage to achieving a successful campaign based on when during the year the campaign is launched. 
 
 ### Analysis of Outcomes Based on Goals
 
-[Outcomes vs. Goal](/Resources/Outcomes_vs_Goals.png)
+[Speed of 2018 analysis with refactord macro.](/Resources/VBA_Challenge_2018.png)
 
 > The link above contians a graph that displays the relationship between successful/failed campaigns relative to the amount of the fund raising goal of the campaign. There does seem to be some corrlation between these two variables.
 
