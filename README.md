@@ -40,7 +40,7 @@ Much of this increase in code performance can be accounted for by a few changes 
   Dim tickerStartingPrices(12) As Single
   Dim tickerEndingPrices(12) As Single
 ```
-2. Replacing some of the original loop coding that search each line of the database and output the data at the end of each loop:
+2. Replacing some of the original loop coding that searched each line of the database and output the data at the end of each loop:
 ```
   For i = 0 To 11
           ticker = tickers(i)
